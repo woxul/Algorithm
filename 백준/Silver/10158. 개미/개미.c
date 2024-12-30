@@ -10,6 +10,6 @@ int main() {
     int temp_y = (q + t) % (2 * h);
     int y = (temp_y > h) ? (2 * h - temp_y) : temp_y;
 
-    printf("%d %d\n", x, y);
+    printf("%d %d", x, y);
     return 0;
 }
